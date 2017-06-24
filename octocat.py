@@ -69,13 +69,13 @@ def octocat_game():
                 .odNNNNNm           dNNNNNdo.
                    ./NEmU |  .   |  RmAI/.
     """
-    
+
     octocat_image = octocat_image.replace("N","-")
     counter = 0
     print octocat_image
     counter = -1
     Instructions_draw = ["e.g = (<0>) \nPlease... Draw Octocat an eye :",
-                            "e.g = (<x>) \n       Nice! draw another one :",
+                            "e.g = (<x>) \n      Nice!! draw another one :",
                                 "e.g = ^-^ \n              Epic nose job!! :",
                                     "e.g = >{W}< \n                Nom nom nom!! :"]
     for user_drawing in user_art:
